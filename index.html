@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan | UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">AM.</div>
+                <div class="nav-links">
+                    <a href="#work">Work</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="glow-ball"></div>
+            <div class="glow-ball"></div>
+
+            <div class="container hero-content">
+                <h1>Crafting Digital<br>Experiences</h1>
+                <p>I'm Alex, a Product Designer based in San Francisco.<br>I build accessible, pixel-perfect, and
+                    performant web experiences.</p>
+                <a href="#work" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="work">
+            <div class="container">
+                <h2 class="section-title">Selected Work</h2>
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card" data-title="Fintech Dashboard"
+                        data-desc="Redesigning the investment experience for Gen Z with a focus on data visualization and accessibility."
+                        data-image="fintech.png" data-tags="UX Research, Mobile App">
+                        <div class="project-image">
+                            <img src="fintech.png" alt="Fintech Dashboard">
+                            <div class="overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">UX Research</span>
+                                <span class="tag">Mobile App</span>
+                            </div>
+                            <h3 class="project-title">Fintech Dashboard</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Redesigning the investment
+                                experience for Gen Z.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card" data-title="E-commerce Platform"
+                        data-desc="A scalable design system for a global retailer, ensuring consistency across web and mobile platforms."
+                        data-image="ecommerce.png" data-tags="Web Design, Design System">
+                        <div class="project-image">
+                            <img src="ecommerce.png" alt="E-commerce Platform">
+                            <div class="overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Web Design</span>
+                                <span class="tag">Design System</span>
+                            </div>
+                            <h3 class="project-title">E-commerce Platform</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">A scalable design system for a
+                                global retailer.</p>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card" data-title="Health Tracker"
+                        data-desc="Gamifying daily fitness habits to improve user retention and health outcomes."
+                        data-image="health.png" data-tags="Mobile, Prototyping">
+                        <div class="project-image">
+                            <img src="health.png" alt="Health Tracker">
+                            <div class="overlay">
+                                <span>View Project</span>
+                            </div>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-tags">
+                                <span class="tag">Mobile</span>
+                                <span class="tag">Prototyping</span>
+                            </div>
+                            <h3 class="project-title">Health Tracker</h3>
+                            <p style="color: var(--text-secondary); font-size: 0.9rem;">Gamifying daily fitness habits.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container" style="max-width: 1000px;">
+                <h2 class="section-title">About Me</h2>
+
+                <div class="about-grid">
+                    <div class="about-image">
+                        <img src="profile.png" alt="Alex Morgan">
+                    </div>
+
+                    <div class="about-content">
+                        <p style="font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                            With over 5 years of experience in digital product design, I focus on creating meaningful
+                            experiences through design. My approach is user-centered, data-driven, and purely aesthetic.
+                        </p>
+                        <div style="display: flex; gap: 4rem; margin-top: 3rem; margin-bottom: 4rem;">
+                            <div>
+                                <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">5+</h4>
+                                <span style="color: var(--text-secondary);">Years Experience</span>
+                            </div>
+                            <div>
+                                <h4 style="font-size: 2rem; margin-bottom: 0.5rem;">50+</h4>
+                                <span style="color: var(--text-secondary);">Projects Delivered</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skills Card -->
+                <div class="skills-card glass">
+                    <div class="tabs-nav">
+                        <button class="tab-btn active" data-tab="design">Design</button>
+                        <button class="tab-btn" data-tab="photography">Photography</button>
+                        <button class="tab-btn" data-tab="architecture">Architecture</button>
+                    </div>
+                    <div class="tabs-content">
+                        <div id="design" class="tab-pane active">
+                            <div class="tab-flex">
+                                <div class="tab-text">
+                                    <h3>Design</h3>
+                                    <p>Creating intuitive and beautiful digital experiences that solve real problems. I
+                                        specialize in UI/UX, interaction design, and design systems, ensuring
+                                        consistency and usability across all platforms.</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <img src="icon-design.png" alt="Design Icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="photography" class="tab-pane">
+                            <div class="tab-flex">
+                                <div class="tab-text">
+                                    <h3>Photography</h3>
+                                    <p>Capturing moments and perspectives through the lens. My photography background
+                                        informs my understanding of composition, lighting, and visual storytelling in
+                                        digital interfaces.</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <img src="icon-photo.png" alt="Photography Icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div id="architecture" class="tab-pane">
+                            <div class="tab-flex">
+                                <div class="tab-text">
+                                    <h3>Architecture</h3>
+                                    <p>Understanding space, form, and function in physical environments. This spatial
+                                        awareness translates into creating structured, logical, and user-friendly
+                                        information architectures.</p>
+                                </div>
+                                <div class="tab-icon">
+                                    <img src="icon-arch.png" alt="Architecture Icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" style="text-align: center;">
+            <div class="container">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p style="font-size: 1.25rem; color: var(--text-secondary); margin-bottom: 2rem;">
+                    Have a project in mind? Let's create something meaningful.
+                </p>
+                <a href="mailto:hello@example.com" class="cta-button">Get in Touch</a>
+
+                <div style="margin-top: 4rem; display: flex; justify-content: center; gap: 2rem;">
+                    <a href="#" style="color: var(--text-secondary);">Twitter</a>
+                    <a href="#" style="color: var(--text-secondary);">LinkedIn</a>
+                    <a href="#" style="color: var(--text-secondary);">Dribbble</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alex Morgan. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content glass">
+            <button class="close-modal">&times;</button>
+            <div class="modal-image">
+                <img src="" alt="Project Detail">
+            </div>
+            <div class="modal-info">
+                <div class="modal-tags"></div>
+                <h2 class="modal-title"></h2>
+                <p class="modal-desc"></p>
+                <a href="#" class="cta-button">View Case Study</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
